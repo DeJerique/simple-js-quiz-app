@@ -38,9 +38,10 @@ body.wrong {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+    margin-bottom: 60px;
 }
 
-#question{
+#question {
     align-items: center;
     text-align: center;
     font-size: x-large;
@@ -90,12 +91,29 @@ body.wrong {
     padding: 10px 20px;
 }
 
-.controls{
+.controls {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hide{
+.hide {
     display: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: darkkhaki;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
