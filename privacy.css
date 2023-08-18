@@ -17,7 +17,7 @@ body {
     padding: 0;
     display: flex;
     width: 100vw;
-    height: 195vh;
+    height: 200vh;
     justify-content: center;
     align-items: center;
     background-color: hsl(var(--hue), 100%, 20%);
