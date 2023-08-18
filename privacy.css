@@ -1,16 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --hue-neutral: 400;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Quicksand;
+    --hue: var(--hue-neutral);
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    height: 195vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--hue), 100%, 20%);
 }
 
 .privacy-container {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
+    width: 800px;
+    max-width: 80%;
+    background-color: darkkhaki;
+    padding: 10px;
     border-radius: 5px;
+    margin-bottom: 60px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.p:a{
+    text-decoration: dotted;
 }
 
 h1 {

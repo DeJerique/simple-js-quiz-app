@@ -108,12 +108,19 @@ body.wrong {
     background-color: darkkhaki;
     padding: 10px;
     text-align: center;
+    align-items: center;
 }
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 800px;
     margin: 0 auto;
+}
+
+.footer-links {
+    flex-grow: 1;
+    /* Allow the Privacy Policy link to take up the remaining space */
+    text-align: center;
 }
