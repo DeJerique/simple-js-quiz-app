@@ -23,13 +23,12 @@ body {
     background-color: hsl(var(--hue), 100%, 20%);
 }
 
-.privacy-container {
+.terms-container {
     width: 800px;
     max-width: 80%;
-    color: hsl(var(--hue), 100%, 20%);
     background-color: darkkhaki;
     padding: 10px;
-    padding-top: 100px;
+    color: hsl(var(--hue), 100%, 20%);
     border-radius: 5px;
     margin-bottom: 60px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -47,15 +46,4 @@ h1 {
 p {
     margin-bottom: 15px;
     line-height: 1.5;
-}
-
-@media screen and (max-width: 600px) {
-
-    .privacy-container {
-        margin-top: 1400px;
-        padding-top: 60px;
-        width: auto;
-        max-width: auto;
-        padding: auto;
-    }
 }
