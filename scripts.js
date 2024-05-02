@@ -100,7 +100,7 @@ const questions = [
     {
         question: 'what is my name',
         answers: [
-            { text: 'DeJerique', correct: true },
+            { text: 'sërvêr', correct: true },
             { text: 'michael', correct: false },
         ]
     },
